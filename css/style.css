@@ -355,6 +355,7 @@ span {
   flex-direction: column;
   gap: 2rem;
   padding-bottom: 6rem;
+  overflow: clip;
 }
 
 *,
