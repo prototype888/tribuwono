@@ -358,12 +358,6 @@ span {
   overflow: clip;
 }
 
-@media (max-width: 405px) {
-  .home-sci {
-    bottom: 2rem;
-  }
-} 
-
 *,
 *::before,
 *::after {
@@ -1329,3 +1323,9 @@ section:nth-child(odd) .animate.scroll,
     width: 0;
   }
 }
+
+@media (max-width: 405px) {
+  .home-sci {
+    bottom: 2rem;
+  }
+} 
