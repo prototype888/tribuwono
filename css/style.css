@@ -88,6 +88,7 @@ section {
   background: url("../images/oh.png") no-repeat;
   background-size: cover;
   background-position: center;
+  overflow: clip;
 }
 
 .home-content {
@@ -109,7 +110,7 @@ section {
 
 .home-content .text-animate {
   position: relative;
-  width: 35rem;
+  width: 26rem;
 }
 
 .home-content .text-animate h3 {
@@ -120,7 +121,7 @@ section {
   background-image: linear-gradient(var(--main-color), var(--main-color));
   background-repeat: no-repeat;
   -webkit-background-clip: text;
-  background-position: 35rem 0;
+  background-position: 26rem 0;
 }
 
 .home.home.show-animate .home-content .text-animate h3 {
@@ -278,6 +279,7 @@ section {
   gap: 2rem;
   background: var(--second-bg-color);
   padding-bottom: 6rem;
+  overflow: clip;
 }
 
 .heading {
@@ -690,6 +692,7 @@ body {
   flex-direction: column;
   min-height: auto;
   padding-bottom: 5rem;
+  overflow: clip;
 }
 
 .education .education-row {
@@ -778,6 +781,7 @@ body {
   min-height: auto;
   padding-bottom: 7rem;
   background: var(--second-bg-color);
+  overflow: clip;
 }
 
 .skills h2 {
@@ -898,6 +902,7 @@ body {
   padding-bottom: 10rem;
   /* padding-top: 20rem; */
   background: var(--second-bg-color);
+  overflow: clip;
 }
 
 .contact h2 {
@@ -1286,7 +1291,7 @@ section:nth-child(odd) .animate.scroll,
   0%,
   10%,
   100% {
-    background-position: -35rem 0;
+    background-position: -26rem 0;
   }
   65%,
   85% {
