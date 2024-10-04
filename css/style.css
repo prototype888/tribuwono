@@ -563,8 +563,13 @@ body {
 }
 
 .tranding-slider-control .swiper-button-next {
-  left: 58% !important;
-  transform: translateX(-58%) !important;
+  left: 60% !important;
+  transform: translateX(-60%) !important;
+}
+
+.tranding-slider-control .swiper-button-prev {
+  right: 60% !important;
+  transform: translateX(-60%) !important;
 }
 
 @media (max-width: 990px) {
